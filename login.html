@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Max-Film</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-dark nav">
+        <div class="container-fluid navigation">
+          <a class="navbar-brand" href="index.html"><img src="img/title.svg" alt="Max-Film"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <h3>Фiльми</h3>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="boy.html"><h4>Бойовик</h4></a></li>
+                  <li><a class="dropdown-item" href="kom.html"><h4>Комедія</h4></a></li>
+                  <li><a class="dropdown-item" href="fan.html"><h4>Фантастика</h4></a></li>
+                  <li><a class="dropdown-item" href="hor.html"><h4>Жахи</h4></a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <h3>Серiали</h3>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="dram.html"><h4>Драми</h4></a></li>
+                  <li><a class="dropdown-item" href="koms.html"><h4>Комедія</h4></a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <h3>Мультфiльми</h3>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="car.html"><h4>Мультфiльми</h4></a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <h3 class="lang">UA <img src="img/ua.svg" alt=""></h3>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#"><h4>RU <img class="first" src="img/ru.svg" alt=""><img src="img/ban.svg" alt="" title="BAN"></h4></a></li>
+                  <li><a class="dropdown-item" href="#"><h4>EN <img class="first" src="img/usa.svg" alt=""><img src="img/gb.svg" alt=""></h4></a></li>
+                  <li><a class="dropdown-item" href="#"><h4>PL <img src="img/pl.svg" alt=""></h4></a></li>
+                  <li><a class="dropdown-item" href="#"><h4>FR <img src="img/fr.svg" alt=""></h4></a></li>
+                </ul>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-black nav-link col-2 find" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img src="img/find.svg" alt="">
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Пошук</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Пошук..." aria-label="Search">
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><h3 class="find">вийти</h3</button>
+                    <button type="button" class="btn btn-primary"><h3 class="find">пошук</h3></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="img/moon.svg" alt="">
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#"><img src="img/sun.svg" alt=""></a></li>
+                </ul>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-black nav-link col-2 find" data-bs-toggle="modal" data-bs-target="#exampleModal_1">
+              <img src="img/login.svg" alt="">
+            </button>
+          </div>
+        </div>
+      </nav>
+      <section class="section">
+        <div class="container main">
+          <div class="row wp d-flex align-items-center">
+            <div class="col-5 d-flex justify-content-end">
+              <a href="#"><h2 class="log">Вхід</h2></a>
+            </div>
+            <div class="col-2 d-flex justify-content-start">
+              <a href="reg.html"><h2 class="reg">Реєстрація</h2></a>
+            </div>
+          </div>
+          <div class="row liner">
+            <div class="col-12">
+              <hr class="line" size="5px">
+            </div>
+          </div>
+          <div class="all_panel">
+          <div class="row login_all">
+            <div class="login">
+                <div class="col-10 login_text">
+                  <h2 class="text_login">Логін</h2>
+                </div>
+              <div class="row log_row d-flex justify-content-center">
+                <div class="comp_1 d-flex justify-content-space-between">
+                <div class="img_login">
+                  <img src="img/login_mini.svg" alt="">
+                </div>
+                <div class="login_pole">
+                  <input type="text" size="56" placeholder="Введіть: Логін">
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="password">
+              <div class="col-10 password_text">
+                <h2 class="text_password">Пароль</h2>
+              </div>
+              <div class="row pass_row d-flex justify-content-center">
+                <div class="comp_2 d-flex justify-content-space-between">
+                  <div class="img_password">
+                    <img src="img/key_min.svg" alt="">
+                  </div>
+                  <div class="password_pole">
+                    <input type="password" size="56" placeholder="Введіть: Пароль">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="my_btn">
+              <form class="my_button_form">
+                <button class="my_button" type="button" name="button">
+                  <h2 class="btn_text">Вхід</h2>
+                </button>
+              </form>
+            </div>
+            <div class="row liner_2">
+              <div class="col-12 line_2wp">
+                <hr class="line_2" size="5px">
+              </div>
+            </div>
+            <div class="login_social">
+              <div class="text_login_social d-flex justify-content-center">
+                <h2 class="social_text">Вхід через соціальні мережі</h2>
+              </div>
+              <div class="img_login_social d-flex justify-content-center">
+                <div class="row mini">
+                  <div class="col-2 img_mini"><a href="#"><img src="img/instagram_mini.svg" alt=""></a></div>
+                  <div class="col-2 img_mini"><a href="#"><img src="img/facebook_mini.svg" alt=""></a></div>
+                  <div class="col-2 img_mini"><a href="#"><img src="img/google_mini.svg" alt=""></a></div>
+                  <div class="col-2 img_mini"><a href="#"><img src="img/twitter_mini.svg" alt=""></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container foot">
+          <div class="row">
+            <div class="col-4">
+              <h4 class="support">Підтримка користувачів</h4>
+            </div>
+            <div class="col-3 d-flex justify-content-center">
+              <h4 class="site">Соцмережі</h4>
+            </div>
+          </div>
+          <div class="second_pan d-flex justify-content-between">
+          <div class="sup_line">
+            <div class="row">
+              <div class="col-3">
+                <a href="#"><h4 class="support_item_1">support@maxfilm.com</h4></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3">
+                <a href="#"><h4 class="support_item_2">0000000000</h4></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3">
+                <h4 class="app">Додатки</h4>
+              </div>
+            </div>
+          </div>
+          <div class="site_line d-flex justify-content-end">
+            <div class="row">
+              <div class="col-3  d-flex justify-content-end inst">
+                <a href="#"><img src="img/instagram.svg" alt=""></a>
+              </div>
+              <div class="col-2 fb">
+                <a href="#"><img src="img/facebook.svg" alt=""></a>
+              </div>
+              <div class="col-2 vb">
+                <a href="#"><img src="img/viber.svg" alt=""></a>
+              </div>
+              <div class="col-2 tt">
+                <a href="#"><img src="img/tiktok.svg" alt=""></a>
+              </div>
+              <div class="col-2 tg">
+                <a href="#"><img src="img/telegram.svg" alt=""></a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="row">
+            <div class="col-3 gp">
+              <a href="#"><img src="img/gp.svg" alt=""></a>
+            </div>
+            <div class="col-3 ap">
+              <a href="#"><img src="img/ap.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

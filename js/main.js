@@ -1,0 +1,20 @@
+$(function(){
+  $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:27,
+      nav:true,
+      dots:false,
+      navText:['<img src="img/left.svg" style="margin-bottom: 40px;">','<img src="img/right.svg" style="margin-bottom: 40px;">'],
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:2
+          },
+          1000:{
+              items:4
+          }
+      }
+  });
+});
